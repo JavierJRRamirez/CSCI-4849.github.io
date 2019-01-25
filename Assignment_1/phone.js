@@ -1,6 +1,13 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww28600\viewh15500\viewkind0
-}
+//alert("hey")
+
+$(document).ready(function() { // do this when the document is loaded
+                  $("MainButton").show(); // show the element with ID "element"
+                  $("content").hide(); // hide the element with ID "otherElement"
+});
+
+$("#content").click(function() { // when "button_id" is clicked
+                      $("#idName").show(); // show element
+                      $("#").hide();    // hide other element
+                      });
+
+
