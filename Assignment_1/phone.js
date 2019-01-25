@@ -6,8 +6,8 @@ $(document).ready(function() { // do this when the document is loaded
 });
 
 $("#content").click(function() { // when "button_id" is clicked
-                      $("#idName").show(); // show element
-                      $("#").hide();    // hide other element
+                      $("#Dial").show(); // show element
+//                      $("#").hide();    // hide other element
                       });
 
 
